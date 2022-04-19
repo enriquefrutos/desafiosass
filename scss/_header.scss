@@ -1,0 +1,30 @@
+@import './base/variables';
+@import './base/listas';
+
+header{
+    h1{ 
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: lightgray;
+    }
+    nav{
+        ul{
+            li{
+                list-style-type: none;
+                
+                a{
+                    float: left;
+                    background-color: $bg-color; 
+                    text-align: center;
+                    text-decoration: none;
+                    color: $p-color;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: nth($size,2);
+                    padding: nth($size,1);
+                  
+                    
+                }
+            }
+        }
+    }
+}

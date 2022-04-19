@@ -1,0 +1,11 @@
+@import './base/variables';
+@import './base/listas';
+
+
+p{
+color: $p-color;
+background-color: $bodbg-color;
+text-align: center;
+float: left;
+font-size: nth($size,3);
+}
